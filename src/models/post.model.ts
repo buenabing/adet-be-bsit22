@@ -18,6 +18,6 @@ export interface CreatePostModel {
 export interface UpdatePostModel {
     title: string;
     description: string;
-    status: 'Actice' | 'Inactive';
+    status: 'Active' | 'Inactive';
 
 }
